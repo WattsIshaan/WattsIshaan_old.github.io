@@ -29,7 +29,7 @@ nav.navbar.expand a{
 }   
 
 .navbar {
-    font-size: 1.2em;
+/*    font-size: 1.2em;*/
     background: rgba(255, 255, 255, 0);
     transition: 0.5s;
 }

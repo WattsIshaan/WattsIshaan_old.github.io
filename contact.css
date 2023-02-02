@@ -20,7 +20,7 @@ body{
 }
 
 .nav-link {
-  font-size: 3vh;
+/*  font-size: 3vh;*/
   display: block;
   color: black;
   text-align: center;
@@ -39,7 +39,7 @@ body{
 }
 
 .footer-list{
-  position:absolute;
+  position:fixed;
   bottom: 0px;
   list-style-type: none;
   margin: 0;
