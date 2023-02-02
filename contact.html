@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact - Ishaan Watts </title>
+	<link rel="stylesheet" href="contact.css">
+	<meta charset="UTF-8">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="public/javascripts/parallax.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+   
+</head>
+
+<body>
+	<ul class="nav-list">
+		<li class="nav-item"><a href="contact.html" class="active nav-link">CONTACT</a></li>
+		<li class="nav-item"><a href="CV.pdf" class="nav-link">CURRICULUM VITAE</a></li>
+		<li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+		<li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+	</ul>
+	<br/>
+	<h2 style="text-align: center;"> Connect With Me! </h2><br/>
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text-center info" id="contactContent">
+					<form action="https://formspree.io/f/xdovnppb" method="post">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="fname">First Name</label>
+								<input type="text" class="form-control" name="message[firstname]" id="fname"
+									placeholder="Ishaan" required >
+							</div>
+							<div class="form-group col-md-6">
+								<label for="lname">Last Name</label>
+								<input type="text" class="form-control" name="message[lastname]" id="lname"
+									placeholder="Watts" >
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" name="message[email]" id="email"
+								placeholder="abc123@xyz.com" required >
+						</div>
+						<div class="form-group">
+							<label for="mobilenumber">Mobile Number</label>
+							<input type="tel" class="form-control" name="message[mobilenumber]" id="mobilenumber"
+								placeholder="123-456-7890" required >
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control" rows="5" name="message[content]" id="message" required
+								placeholder="Type something here..."></textarea>
+						</div>
+						<button type="submit" class="btn btn-black">Send <i
+								class="fas fa-paper-plane"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<ul class="footer-list">
+		<li class="footer-item">		
+			<a href="https://github.com/WattsIshaan" class="footer-link"><img src="images/github_black.png" alt="github" class='footer-icon'></a>
+		</li>
+		<li class="footer-item">
+			<a href="https://www.linkedin.com/in/ishaan-watts-b7a679226/" class="footer-link"><img src='images/linkedin_blue.png' alt="linkedin" class='footer-icon'></a>
+		</li>
+		<li class="footer-item">
+			<a href="mailto:wattsishaan18@gmail.com" class="footer-link"><img src="images/mail_close.png" alt="mail" class='footer-icon'></a>
+		</li>
+		<li class="footer-item">
+			<a href="https://www.instagram.com/wattsupishaan/" class="footer-link"><img src="images/insta_color.png" alt="instagram" class='footer-icon'></a>
+		</li>
+	</ul>
+
+</body>
+</html>
